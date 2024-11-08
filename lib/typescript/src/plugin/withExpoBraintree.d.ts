@@ -4,6 +4,14 @@ export type ExpoBraintreePluginProps = {
      * xCode project name, used for importing the swift expo braintree config header
      */
     xCodeProjectAppName: string;
+    /**
+     * Android AppLink host
+     */
+    host: string;
+    /**
+     * Android AppLink pathPrefix
+     */
+    pathPrefix: string;
 };
 export declare const withExpoBraintreePlugin: ConfigPlugin<ExpoBraintreePluginProps>;
 declare const _default: ConfigPlugin<ExpoBraintreePluginProps>;
